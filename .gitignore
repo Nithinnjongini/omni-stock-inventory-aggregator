@@ -10,3 +10,46 @@ coverage/
 *.tsbuildinfo
 .turbo/
 .vercel/
+# Dependencies
+**/node_modules/
+.pnp
+.pnp.js
+.yarn/
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+# Build outputs / caches
+out/
+.next/
+**/.next/
+.nuxt/
+.cache/
+# Terraform
+.terraform/
+**/.terraform/
+*.tfstate
+*.tfstate.*
+# Environment / secrets
+.env.*
+*.local
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+# OS
+# IDE
+.idea/
+*.swp
+# Large data / archives
+*.zip
+spark-warehouse/
